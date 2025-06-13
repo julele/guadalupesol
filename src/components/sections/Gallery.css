@@ -1,0 +1,61 @@
+gallery-link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.gallery-link img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-link:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-link:hover::before {
+    opacity: 1;
+}
+
+.ekko-lightbox {
+    z-index: 1050;
+}
+
+.ekko-lightbox .modal-dialog {
+    margin: 10px;
+}
+
+.ekko-lightbox .modal-content {
+    background: transparent;
+    border: none;
+}
+
+.ekko-lightbox .modal-header {
+    border: none;
+    padding: 0;
+}
+
+.ekko-lightbox .modal-body {
+    padding: 0;
+}
+
+.ekko-lightbox .ekko-lightbox-nav-overlay a {
+    opacity: 0.5;
+    color: #fff;
+}
+
+.ekko-lightbox .ekko-lightbox-nav-overlay a:hover {
+    opacity: 1;
+}

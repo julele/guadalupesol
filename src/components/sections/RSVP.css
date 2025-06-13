@@ -1,0 +1,76 @@
+.ww-rsvp-detail {
+    background-image: url('../../../src/assets/images/rsvp-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 120px 0;
+}
+
+.ww-rsvp-detail:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ww-rsvp-detail .container {
+    position: relative;
+    z-index: 1;
+}
+
+.ww-rsvp-detail .ww-title {
+    color: #fff;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 40px;
+}
+
+.ww-rsvp-detail .form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ww-rsvp-detail select.form-control {
+    height: auto;
+    padding: 15px 20px;
+}
+
+.ww-rsvp-detail textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.ww-rsvp-detail .btn-submit {
+    background: #f26147;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.ww-rsvp-detail .btn-submit:hover {
+    background: #e54b31;
+    transform: translateY(-2px);
+}
+
+.ww-rsvp-detail .form-group {
+    margin-bottom: 20px;
+}
+
+.ww-rsvp-detail .form-control::placeholder {
+    color: #666;
+}

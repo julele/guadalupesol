@@ -1,0 +1,200 @@
+.ww-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.ww-carousel .owl-nav button {
+    position: absolute;
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.9) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ww-carousel .owl-nav button.owl-prev {
+    left: -20px;
+}
+
+.ww-carousel .owl-nav button.owl-next {
+    right: -20px;
+}
+
+.ww-carousel .owl-nav button i {
+    font-size: 20px;
+    color: #333;
+}
+
+.ww-carousel .owl-nav button:hover {
+    background: #f26147 !important;
+}
+
+.ww-carousel .owl-nav button:hover i {
+    color: #fff;
+}
+
+.ww-carousel .owl-dots {
+    margin-top: 20px;
+}
+
+.ww-carousel .owl-dot span {
+    background: #ddd !important;
+}
+
+.ww-carousel .owl-dot.active span {
+    background: #f26147 !important;
+}
+
+.ww-couple-friends .card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.ww-couple-friends .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.ww-couple-friends .card-img-top {
+    border-radius: 4px 4px 0 0;
+    height: 300px;
+    object-fit: cover;
+}
+
+.ww-couple-friends .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.ww-couple-friends .owl-prev,
+.ww-couple-friends .owl-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.9) !important;
+    border-radius: 50% !important;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+}
+
+.ww-couple-friends .owl-prev {
+    left: -20px;
+}
+
+.ww-couple-friends .owl-next {
+    right: -20px;
+}
+
+.ww-couple-friends .owl-prev i,
+.ww-couple-friends .owl-next i {
+    font-size: 20px;
+    color: #333;
+}
+
+.ww-couple-friends .owl-prev:hover,
+.ww-couple-friends .owl-next:hover {
+    background: #f26147 !important;
+}
+
+.ww-couple-friends .owl-prev:hover i,
+.ww-couple-friends .owl-next:hover i {
+    color: #fff;
+}
+
+.ww-social-links {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.ww-social-links .btn-link {
+    color: #666;
+    margin: 0 5px;
+    padding: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ww-social-links .btn-link:hover {
+    color: #f26147;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+.ww-social-links .btn-link i {
+    display: inline-block;
+}
+
+/* Estilos para los botones de navegación */
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    width: 40px !important;
+    height: 40px !important;
+    background: rgba(255,255,255,0.9) !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.owl-prev {
+    left: -20px;
+}
+
+.owl-next {
+    right: -20px;
+}
+
+.owl-prev i,
+.owl-next i {
+    font-size: 18px;
+    color: #333;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background: #f26147 !important;
+}
+
+.owl-prev:hover i,
+.owl-next:hover i {
+    color: #fff;
+}
+
+/* Estilos para los dots */
+.owl-dots {
+    margin-top: 20px;
+}
+
+.owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px !important;
+    background: #ddd !important;
+    transition: all 0.3s ease !important;
+}
+
+.owl-dot.active span {
+    background: #f26147 !important;
+    transform: scale(1.2);
+}

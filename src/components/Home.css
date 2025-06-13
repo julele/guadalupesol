@@ -1,0 +1,66 @@
+.ww-home-page {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.ww-wedding-announcement {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-wrapper {
+    padding: 2rem 0;
+}
+
+.logo-container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.text-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.text-container .ww-title {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+}
+
+.ww-title {
+    font-family: 'Dosis', sans-serif; /* Cambiamos Poppins por Dosis */
+    font-weight: 400;
+    color: #2d2d2e;
+}
+
+.d-flex {
+    gap: 3rem;  /* Ajusta este valor según necesites */
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+    .announcement-content {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .logo-container {
+        width: 300px; /* Tamaño más pequeño para móviles */
+        margin: 0 auto 2rem;
+    }
+
+    .text-container {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .ww-title.h1 {
+        font-size: 2.5rem;
+    }
+
+    .ww-title.h2 {
+        font-size: 2rem;
+    }
+}

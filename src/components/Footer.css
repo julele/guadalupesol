@@ -1,0 +1,25 @@
+.ww-footer {
+    border-top: 1px solid #eee;
+}
+
+.ww-footer .credit {
+    color: #6b7a83;
+    text-decoration: none;
+}
+
+.ww-footer .credit:hover {
+    color: #f26147;
+}
+
+.ww-footer-social .btn-link {
+    color: #6b7a83;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.ww-footer-social .btn-link:hover {
+    color: #f26147;
+    transform: translateY(-3px);
+}
