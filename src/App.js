@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import Couple from './components/sections/Couple';
 import Events from './components/sections/Events';
 import People from './components/sections/People';
-// import Gallery from './components/sections/Gallery';
-// import RSVP from './components/sections/RSVP';
+import Newsletter from './components/sections/Newsletter';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
       <Couple />
       <Events />
       <People />
-      {/* <Gallery /> */}
-      {/* <RSVP /> */}
+      <Newsletter />
       <Footer />
     </div>
   );

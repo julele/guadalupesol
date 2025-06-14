@@ -91,7 +91,7 @@ function People() {
           {people.map((person, index) => (
             <div key={index} className="item">
               <div className="card d-block mb-3">
-                <img className="card-img-top" src={person.image} alt={person.name} />
+                <img className="card-img-top redondeado" src={person.image} alt={person.name} />
                 <div className="card-body text-center">
                   <div className="h5">{person.name}</div>
                   <p className="mb-0">{person.role}</p>

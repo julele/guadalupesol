@@ -198,3 +198,8 @@
     background: #f26147 !important;
     transform: scale(1.2);
 }
+
+.redondeado {
+    border-radius: 1.25rem !important;/* Ajusta este valor según necesites */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Opcional: agrega una sombra suave */
+}

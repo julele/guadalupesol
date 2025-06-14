@@ -2,3 +2,31 @@
     border-radius: 1.25rem !important;/* Ajusta este valor según necesites */
     box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Opcional: agrega una sombra suave */
 }
+
+.ww-wedding-event p {
+    font-size: 1.1rem;  /* Puedes ajustar este valor según necesites */
+    line-height: 1.6;   /* Mejora la legibilidad */
+    margin-bottom: 1.5rem;
+}
+
+/* Aseguramos que el texto sea legible en móviles */
+@media (max-width: 768px) {
+    .ww-wedding-event p {
+        font-size: 1rem;
+    }
+}
+
+.ww-wedding-event .h3 {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.ww-wedding-event .h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #f26147, rgba(242, 97, 71, 0.1));
+}

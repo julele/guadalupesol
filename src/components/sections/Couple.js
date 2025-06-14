@@ -22,10 +22,10 @@ function Couple() {
               {/* <img className="img-fluid" src="images/bride.jpg" alt="Bride"/> */}
               <h5 className="h4 ww-title">
                 ¿Sentís que hacés mil cosas pero no ves resultados reales en tu vida?<br/>
-                ¿Sentís que la vida no te da lo que mereces?<br/>
-                ¿Te cuesta recibir sin culpa?<br/>
-                ¿Te cuesta pedir lo que querés o darte prioridad?<br/>
-                Este evento es para vos si sabés que querés más, pero sentís que algo te frena.<br/>
+                <br/>¿Sentís que la vida no te da lo que mereces?<br/>
+                <br/>¿Te cuesta recibir sin culpa?<br/>
+                <br/>¿Te cuesta pedir lo que querés o darte prioridad?<br/>
+                <br/>Este evento es para vos si sabés que querés más, pero sentís que algo te frena.<br/>
                 No es que no puedas. No es que no sepas.<br/>
                 Solo necesitás recordar quién sos y darle lugar a lo que realmente merecés.<br/>
                 
