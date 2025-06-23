@@ -1,0 +1,17 @@
+.newsletter-form .form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+}
+
+.newsletter-form .btn {
+    border-radius: 30px;
+    font-weight: 600;
+    background: #f26147;
+    border: none;
+    transition: background 0.2s;
+}
+
+.newsletter-form .btn:hover {
+    background: #e54b31;
+}
