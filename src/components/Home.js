@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="ww-home-page" id="home">
       <div className="ww-wedding-announcement d-flex align-items-center justify-content-start">
@@ -14,7 +16,10 @@ function Home() {
               <h1 className="text-white">LO MEREZCO TODO</h1>
               <h3 className="text-white">3 días para recordar que mereces TODO lo que deseás: amor, éxito, dinero, libertad y una vida diseñada por vos. </h3>
               <h4 className="text-white">Evento gratuito con Guadalupe Sol Vázquez. 7, 8 y 9 de junio. Audio + Clase en vivo final</h4>
-              <button className="btn btn-primary btn-lg mt-4">
+              <button
+                className="btn btn-primary btn-lg mt-4"
+                onClick={() => navigate('/suscribirme')}
+              >
                 ¡QUIERO INSCRIBIRME!
               </button>
             </div>
