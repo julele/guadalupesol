@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Header.css';
 function Header() {
   return (
     <div className="ww-nav-bar sticky-top bg-light">
@@ -9,7 +9,7 @@ function Header() {
             <a className="pl-4 navbar-brand" href="#">
               <img 
               src="/images/logo-n.png" 
-              alt="Wonderful Wedding" 
+              alt="GuadalupeSol" 
               className="ww-logo"
             />
             </a>

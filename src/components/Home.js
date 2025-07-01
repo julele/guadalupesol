@@ -1,8 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 import './Home.css';
 
 function Home() {
+
+  // Datos Estaticos sin DB
+const contenidoMarkdown = `
+# LO **MEREZCO** TODO
+
+### 3 días para recordar que mereces **TODO** lo que deseás: amor, éxito, dinero, libertad y una vida diseñada por vos.
+
+#### Evento gratuito con *Guadalupe Sol Vázquez*. 7, 8 y 9 de junio. Audio + Clase en vivo final
+`;
+
   const navigate = useNavigate();
   return (
     <div className="ww-home-page" id="home">
@@ -13,15 +24,15 @@ function Home() {
               <img className="img-fluid" src="images/logo.png" alt="Heart" />
             </div>
             <div className="ww-wedding-announcement-text">
-              <h1 className="text-white">LO MEREZCO TODO</h1>
-              <h3 className="text-white">3 días para recordar que mereces TODO lo que deseás: amor, éxito, dinero, libertad y una vida diseñada por vos. </h3>
-              <h4 className="text-white">Evento gratuito con Guadalupe Sol Vázquez. 7, 8 y 9 de junio. Audio + Clase en vivo final</h4>
-              <button
+              <ReactMarkdown>{contenidoMarkdown}</ReactMarkdown>
+              <a
                 className="btn btn-primary btn-lg mt-4"
-                onClick={() => navigate('/suscribirme')}
+                href="https://optin.myperfit.com/subscribe/guadalupesol/DGxCxAwe"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 ¡QUIERO INSCRIBIRME!
-              </button>
+              </a>
             </div>
           </div>
         </div>

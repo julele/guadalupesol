@@ -1,15 +1,13 @@
 import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, Navigate } from 'react-router-dom';
 
 function WhatsappAccess() {
   const location = useLocation();
-  const navigate = useNavigate();
 
   // Solo permite acceso si viene de la suscripción
-  if (!location.state || !location.state.subscribed) {
-    navigate('/suscribirme');
-    return null;
-  }
+  // if (!location.state || !location.state.subscribed) {
+  //   return <Navigate to="/suscribirme" replace />;
+  // }
 
   return (
     <div className="container py-5 d-flex flex-column align-items-center justify-content-center" style={{minHeight: '70vh'}}>

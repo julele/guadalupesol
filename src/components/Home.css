@@ -64,3 +64,13 @@
         font-size: 2rem;
     }
 }
+
+.ww-wedding-announcement-text h1,
+.ww-wedding-announcement-text h3,
+.ww-wedding-announcement-text h4 {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.45), 0 1px 1px rgba(0,0,0,0.25);
+}
+
+.logo-container img {
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.45)) drop-shadow(0 1px 1px rgba(0,0,0,0.25));
+}
