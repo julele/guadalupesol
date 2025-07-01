@@ -3,9 +3,9 @@ import $ from 'jquery';
 import 'owl.carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import './People.css';
+import './Testimonios.css';
 
-function People() {
+function Testimonios() {
   const carouselRef = useRef(null);
 
   useEffect(() => {
@@ -111,4 +111,4 @@ function People() {
   );
 }
 
-export default People;
+export default Testimonios;

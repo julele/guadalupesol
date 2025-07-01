@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -25,14 +26,12 @@ const contenidoMarkdown = `
             </div>
             <div className="ww-wedding-announcement-text">
               <ReactMarkdown>{contenidoMarkdown}</ReactMarkdown>
-              <a
+              <Link
                 className="btn btn-primary btn-lg mt-4"
-                href="https://optin.myperfit.com/subscribe/guadalupesol/DGxCxAwe"
-                target="_blank"
-                rel="noopener noreferrer"
+                to="/pre-newsletter"
               >
                 ¡QUIERO INSCRIBIRME!
-              </a>
+              </Link>
             </div>
           </div>
         </div>

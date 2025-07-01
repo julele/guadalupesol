@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Couple.css';
 function Couple() {
   return (
@@ -12,9 +13,12 @@ function Couple() {
               <h3 className="h2 ww-title">Accedé a herramientas de transformación emocional, energética y práctica para activar tu merecimiento.<br/>
                 Durante 3 días, te voy a guiar para que te conectes con tu valor, tu verdad y tu poder de manifestar todo lo que deseas.
               </h3>
-              <button className="btn btn-primary btn-lg mt-4">
+              <Link
+                className="btn btn-primary btn-lg mt-4"
+                to="/pre-newsletter"
+              >
                 ¡QUIERO INSCRIBIRME!
-              </button>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">

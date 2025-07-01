@@ -1,6 +1,7 @@
 import React from 'react';
-import './Events.css';
-function Events() {
+import './Guia.css';
+import { Link } from 'react-router-dom';
+function Guia() {
   return (
     <div className="ww-section bg-light" id="events">
       <div className="container ww-wedding-event">
@@ -35,9 +36,12 @@ function Events() {
               <p>No vengo a enseñarte a merecer, vengo a recordarte que ya lo hacés pero necesitas recordar como hacerlo. Solo tenés que darte permiso de tenerlo todo.</p>
               <div className="h4">¿Te espero el 7, 8 y 9 de julio.?</div>
               <div className="h5">Vamos a encender juntas la chispa que activa TODO lo que ya es tuyo.</div>
-              <button className="btn btn-primary btn-lg mt-4">
+              <Link
+                className="btn btn-primary btn-lg mt-4"
+                to="/pre-newsletter"
+              >
                 ¡QUIERO INSCRIBIRME!
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -46,4 +50,4 @@ function Events() {
   );
 }
   
-export default Events;
+export default Guia;

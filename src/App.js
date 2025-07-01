@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Couple from './components/sections/Couple';
-import Events from './components/sections/Events';
-import People from './components/sections/People';
-import Newsletter from './components/sections/Newsletter';
+import Guia from './components/sections/Guia';
+import Testimonios from './components/sections/Testimonios';
+// import Newsletter from './components/sections/Newsletter';
 import Footer from './components/Footer';
 import NewsletterSubscribe from './components/NewsletterSubscribe';
 import WhatsappAccess from './components/WhatsappAccess';
+import PreNewsletter from './components/PreNewsletter';
 
 function App() {
   return (
@@ -21,12 +22,12 @@ function App() {
               <Home />
               <Header />
               <Couple />
-              <Events />
-              <People />
-              <Newsletter />
+              <Guia />
+              <Testimonios />
               <Footer />
             </>
           } />
+          <Route path="/pre-newsletter" element={<PreNewsletter/>} />
           <Route path="/suscribirme" element={<NewsletterSubscribe />} />
           <Route path="/acceso-grupo" element={<WhatsappAccess />} />
         </Routes>
